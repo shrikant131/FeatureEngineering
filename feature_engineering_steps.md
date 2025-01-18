@@ -31,6 +31,11 @@
 2. Calculated the proximity measure between house_type and purchase_price.
 3. Calculated the proximity measure between no_rooms and purchase_price.
 4. Provided explanations for proximity measures to understand the relationship between different attributes.
+5. Calculated Euclidean distance between numeric columns.
+6. Calculated Manhattan distance between numeric columns.
+7. Calculated Cosine similarity between numeric columns.
+8. Calculated Mahalanobis distance between numeric columns.
+9. Created a dissimilarity matrix for categorical columns.
 
 ## Feature Selection
 
@@ -38,7 +43,14 @@
 2. Applied SelectKBest with f_regression to select the top 5 features.
 3. Applied SelectKBest with mutual_info_regression to select the top 5 features.
 4. Applied the correlation method to identify relevant features.
-5. Provided explanations for feature selection to identify the most relevant features for predicting the target variable.
+5. Applied Pearson coefficient to identify relevant features.
+6. Applied Recursive Feature Elimination (RFE) to select the top 5 features.
+7. Provided explanations for feature selection to identify the most relevant features for predicting the target variable.
+
+## Comparison of Feature Selection Methods
+
+1. Compared the top 5 features from each feature selection method.
+2. Provided explanations for the comparison to understand the consistency and differences between the methods.
 
 ## Correlation Plot
 
@@ -66,7 +78,8 @@
 3. Normalization of numeric attributes.
 4. Analysis of most expensive cities and cities with maximum unique zip codes.
 5. Proximity measures between specified columns.
-6. Feature selection using filter methods (f_regression, mutual_info_regression, correlation).
-7. Correlation plot.
-8. Visualizations (histograms, boxplots, scatter plots).
-9. Handling outliers using the z-score approach.
+6. Feature selection using filter methods (f_regression, mutual_info_regression, correlation, Pearson coefficient, RFE).
+7. Comparison of feature selection methods.
+8. Correlation plot.
+9. Visualizations (histograms, boxplots, scatter plots).
+10. Handling outliers using the z-score approach.
