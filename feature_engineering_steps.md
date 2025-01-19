@@ -83,3 +83,10 @@
 8. Correlation plot.
 9. Visualizations (histograms, boxplots, scatter plots).
 10. Handling outliers using the z-score approach.
+
+## Additional Regression Models and Evaluation
+
+1. Implemented and evaluated additional regression models, including Ridge Regression, Lasso Regression, Elastic Net Regression, Decision Tree Regression, Random Forest Regression, Gradient Boosting Regression, Support Vector Regression (SVR), and K-Nearest Neighbors Regression (KNN).
+2. Provided detailed explanations for each model and their evaluation.
+3. Compared the performance of different regression models using metrics such as Mean Squared Error (MSE) and R-squared (R2) score.
+4. Provided visualizations to compare the performance of different regression models.
