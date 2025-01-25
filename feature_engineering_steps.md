@@ -45,12 +45,21 @@
 4. Applied the correlation method to identify relevant features.
 5. Applied Pearson coefficient to identify relevant features.
 6. Applied Recursive Feature Elimination (RFE) to select the top 5 features.
-7. Provided explanations for feature selection to identify the most relevant features for predicting the target variable.
+7. Applied frequency encoding for categorical features.
+8. Applied target encoding for categorical features.
+9. Applied leave-one-out encoding for categorical features.
+10. Provided explanations for feature selection to identify the most relevant features for predicting the target variable.
 
 ## Comparison of Feature Selection Methods
 
 1. Compared the top 5 features from each feature selection method.
 2. Provided explanations for the comparison to understand the consistency and differences between the methods.
+
+## Binning and Data Discretization
+
+1. Implemented binning for numeric features.
+2. Implemented data discretization for numeric features.
+3. Provided explanations for binning and data discretization to improve the performance of machine learning algorithms.
 
 ## Correlation Plot
 
@@ -62,14 +71,23 @@
 1. Created a histogram to visualize the distribution of purchase prices.
 2. Created a boxplot to visualize the purchase prices by house type.
 3. Created a scatter plot to visualize the relationship between sqm and purchase price.
-4. Provided explanations for visualizations to understand the distribution and relationships of different attributes.
+4. Created visualizations for the distribution of categorical features.
+5. Provided explanations for visualizations to understand the distribution and relationships of different attributes.
 
 ## Handling Outliers
 
 1. Calculated z-scores for numeric columns.
 2. Identified outliers based on z-scores.
 3. Removed outliers from the dataset.
-4. Provided explanations for using the z-score approach to handle outliers.
+4. Applied IQR method for handling outliers.
+5. Applied robust scaling for handling outliers.
+6. Provided explanations for using the z-score approach, IQR method, and robust scaling to handle outliers.
+
+## Validation Scores and Cross-Validation
+
+1. Included validation scores for models used.
+2. Performed cross-validation for models used.
+3. Provided explanations for validation scores and cross-validation to ensure the robustness of the models.
 
 ## Techniques Used in Feature Engineering
 
@@ -78,8 +96,10 @@
 3. Normalization of numeric attributes.
 4. Analysis of most expensive cities and cities with maximum unique zip codes.
 5. Proximity measures between specified columns.
-6. Feature selection using filter methods (f_regression, mutual_info_regression, correlation, Pearson coefficient, RFE).
+6. Feature selection using filter methods (f_regression, mutual_info_regression, correlation, Pearson coefficient, RFE, frequency encoding, target encoding, leave-one-out encoding).
 7. Comparison of feature selection methods.
-8. Correlation plot.
-9. Visualizations (histograms, boxplots, scatter plots).
-10. Handling outliers using the z-score approach.
+8. Binning and data discretization.
+9. Correlation plot.
+10. Visualizations (histograms, boxplots, scatter plots, distribution of categorical features).
+11. Handling outliers using the z-score approach, IQR method, and robust scaling.
+12. Validation scores and cross-validation.
